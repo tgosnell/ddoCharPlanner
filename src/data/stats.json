@@ -1,0 +1,29 @@
+{
+    "stats":[
+        { 
+            "name": "Strength",
+            "abbr": "str"
+        },
+        { 
+            "name": "Dexterity",
+            "abbr": "dex"
+        },
+        { 
+            "name": "Constitution",
+            "abbr": "con"
+        },
+        { 
+            "name": "Intelligence",
+            "abbr": "int"
+        },
+        { 
+            "name": "Wisdom",
+            "abbr": "wis"
+        },
+        { 
+            "name": "Charisma",
+            "abbr": "cha"
+        }
+    ],
+    "baseStat": 10
+}

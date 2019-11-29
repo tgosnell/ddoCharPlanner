@@ -1,0 +1,825 @@
+[
+    {
+      "icon": "Icon_Feat_Attack.png",
+      "feat": "Attack",
+      "description": "This is the standard attack for all characters.  It can be toggled on to attack repeatedly until your target is defeated, or activated once by right-clicking the mouse.",
+      "prereqs": "None"
+    },
+    {
+      "icon": "Icon_Feat_Defensive_Fighting.png",
+      "feat": "Defensive Fighting",
+      "description": "While using Defensive Fighting mode, you gain a 5% bonus to AC and -5% penalty to-hit. Casting a spell ends this mode.",
+      "prereqs": "None"
+    },
+    {
+      "icon": "Icon_Feat_Dismiss_Charm.png",
+      "feat": "Dismiss Charm",
+      "description": "Activate this short-ranged ability while targeting a charmed, commanded, controlled, or dominated enemy that is under your control to dispel the controlling effect.",
+      "prereqs": "None"
+    },
+    {
+      "icon": "Icon_Feat_Sneak.png",
+      "feat": "Sneak",
+      "description": "The character becomes invisible to all enemies that fail a [[Spot]] and [[Listen]] [[skill]] check, opposed by [[Hide]] and [[Move Silently]] skills.",
+      "prereqs": "None"
+    },
+    {
+      "icon": "Icon_Feat_Sunder.png",
+      "feat": "Sunder",
+      "description": "This [[melee special attack]], when successful, results in a -4 [[AC]] penalty to the target for 12 seconds if it fails a [[Fortitude save]] ([[DC]] 10 + [[Str]] mod). Some creatures may be immune to the sunder effect",
+      "prereqs": "None"
+    },
+    {
+      "icon": "Icon_Feat_Trip.png",
+      "feat": "Trip",
+      "description": "This [[feat]] has a chance to [[trip]] the target rendering it prone for a short time. [[Strength]] or [[Dexterity]] save (whichever is higher) is used to oppose a DC of 10 + [[Strength]] modifier + related Enhancements + [[Vertigo (enhancement)|Vertigo]]. Some creatures may be immune to this effect.  Creatures larger or stronger than you are less likely to trip. A successful [[Balance]] check negates this effect (DC of 10 + [[Strength]] modifier + related Enhancements + [[Vertigo (enhancement)|Vertigo]]).",
+      "prereqs": "None"
+    },
+    {
+      "icon": "Icon_Feat_Heroic_Durability.png",
+      "feat": "Heroic Durability",
+      "description": "This [[feat]] increases the character maximum [[hit point]]s by 30.",
+      "prereqs": "None"
+    },
+    {
+      "icon": "Icon_Feat_Heroic_Durability.png",
+      "feat": "Improved Heroic Durability",
+      "description": "This [[feat]] increases the character maximum [[hit point]]s by +5.",
+      "prereqs": "Automatically granted at levels 5, 10, 15"
+    },
+    {
+      "icon": "Icon_Feat_Magical_Training.png",
+      "feat": "Magical Training",
+      "description": "This [[feat]] increases the maximum [[spell point]]s by 80, increases the spell critical chance by 5% and grants [[Echoes of Power]] if the spell points pool drops below 12.",
+      "prereqs": [
+        "Level 1 : [[Cleric]], [[Druid]], [[Favored Soul]], [[Artificer]], [[Sorcerer]], [[Wizard]], [[Warlock]] ",
+        "Any other [[class]] as a trainable feat"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Cleave.png",
+      "feat": "Cleave",
+      "description": "Activate this ability to attack one or more enemies in an arc in front of you. This attack deals +1[W] damage. <br />[[Cleave]] has a better chance to hit more enemies at once than a basic attack.",
+      "prereqs": "[[Power Attack]]"
+    },
+    {
+      "icon": "Icon_Feat_Great_Cleave.png",
+      "feat": "Great Cleave",
+      "description": "This [[feat]] attacks enemies in a wider arc than [[Cleave]], hence [[Great Cleave]] has a greater chance to hit more enemies than [[Cleave]]. <br />This attack deals +2[W] damage.",
+      "prereqs": [
+        "[[Cleave]]",
+        "[[Base Attack Bonus]] +4"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Hamstring.png",
+      "feat": "Hamstring",
+      "description": "This [[melee special attack]], when successful, reduces the target's movement rate by half for 12 seconds.<br /> Some creatures may be immune to the hamstring effect.",
+      "prereqs": "[[Sneak Attack]]"
+    },
+    {
+      "icon": "Icon_Feat_Improved_Feint.png",
+      "feat": "Improved Feint",
+      "description": "A tactical melee attack which [[Bluff]]s the enemy, enabling [[Sneak Attack]]s.",
+      "prereqs": "One of : [[Sneak Attack]] or [[Half-Elf Dilettante: Rogue]]"
+    },
+    {
+      "icon": "Icon_Feat_Improved_Sunder.png",
+      "feat": "Improved Sunder",
+      "description": "This [[melee special attack]] results in a -5 [[AC]] penalty and -10% [[fortification]] to the target for 24 seconds, if the target fails a [[Fortitude save]] ([[DC]] 14 + [[Str]] mod). Whether successful or unsuccessful, this attack will also reduce an enemy's [[Fortitude]] saves by 3, stacking up to 5 times. Some creatures may be immune to the sunder effect.",
+      "prereqs": [
+        "[[Sunder]]",
+        "[[Power Attack]]"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Improved_Trip.png",
+      "feat": "Improved Trip",
+      "description": "This [[feat]] has a chance to [[trip]] the target, if the target fails a [[Balance]] check ([[DC]] 14 + [[Str]] mod), rendering it prone for a longer period of time than [[Trip]]. Some creatures may be immune to this effect.",
+      "prereqs": "[[Combat Expertise]]"
+    },
+    {
+      "icon": "Icon_Feat_Sap.png",
+      "feat": "Sap",
+      "description": "This [[feat]] has a chance to render the target briefly senseless, though it will become active if damaged again. Some creatures may be immune to the [[sap]] effect and [[sap]] is more effective when performed as a successful sneak attack (whether or not your character can normally perform sneak attacks).",
+      "prereqs": "None"
+    },
+    {
+      "icon": "Icon_Feat_Slicing_Blow.png",
+      "feat": "Slicing Blow",
+      "description": "Using this attack, you deal 1 point of [[Constitution]] damage to your target and deal 1d4 additional damage 2 seconds later as the target bleeds. The target suffers an additional round of bleeding for every 3 character levels, up to a max of 6 at level 15.<br /> Some creatures may be immune to the bleeding effect.",
+      "prereqs": "None"
+    },
+    {
+      "icon": "Icon_Feat_Stunning_Blow.png",
+      "feat": "Stunning Blow",
+      "description": "This [[feat]] has a chance to stun the target for 6 seconds if it fails a [[DC]] (10 + [[Str]] mod) [[Fortitude save]]. Some creatures may be immune to the stunning effect.",
+      "prereqs": "None"
+    },
+    {
+      "icon": "Icon_Feat_Whirlwind_Attack.png",
+      "feat": "Whirlwind Attack",
+      "description": "This [[feat]] attacks all enemies in a 360 degree arc around the character. This attack deals +4[W] damage.",
+      "prereqs": [
+        "[[Dodge]], [[Mobility]], [[Spring Attack]]",
+        "[[Combat Expertise]], [[Base Attack Bonus]] +4"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Combat_Expertise.png",
+      "feat": "Combat Expertise",
+      "description": "Defensive Combat Stance: While using Combat Expertise mode, you suffer -5 to your attack rolls but gain +10% feat bonus to [[Armor Class]]. [[Spell]]s have three times their normal [[cooldown]] when this mode is active. [[Combat Expertise]] dispels and wards against all rage effects.",
+      "prereqs": "[[Intelligence]] 13"
+    },
+    {
+      "icon": "Icon_Feat_Many_Shot.png",
+      "feat": "Manyshot",
+      "description": "For the next 20 seconds, add your [[base attack bonus]] * 4 to your [[Doubleshot]] and [[Ranged power]]. This ability puts Ten Thousand Stars on a 30 second cooldown. Cooldown: 2 minutes. ",
+      "prereqs": [
+        "[[Point Blank Shot]], [[Rapid Shot]]",
+        "[[Dexterity]] 17, [[Base Attack Bonus]] +6"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Ten_Thousand_Stars.png‎",
+      "feat": "Ten Thousand Stars",
+      "description": "For the next 30 seconds, add your Wisdom ability score to your [[Ranged Power]] and add your monk level * 5 to your [[Doubleshot]]. This ability puts Manyshot on a 30 second cooldown. Cooldown: one minute.",
+      "prereqs": [
+        "Level 6: [[Monk]]",
+        "[[Dexterity]] 13"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Power_Attack.png",
+      "feat": "Power Attack",
+      "description": "Reduces your hit bonus by 5, or your [[Base Attack Bonus]], whichever is lower. Then your successful attacks will have their damage increased by the same amount. [[Two-handed weapons]] get twice that damage bonus.",
+      "prereqs": "[[Strength]] 13"
+    },
+    {
+      "icon": "Icon_Feat_Improved_Precise_Shot.png",
+      "feat": "Improved Precise Shot",
+      "description": "Your ranged attacks will now pass through friends and foes to damage all foes in your path, until they strike your intended target.",
+      "prereqs": [
+        "[[Point Blank Shot]], [[Precise Shot]],",
+        "[[Dexterity]] 19, [[Base Attack Bonus]] +11"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Precision.png",
+      "feat": "Precision",
+      "description": "While using Precision mode, you gain +5% to hit and reduce the target's [[fortification]] against your attacks by 25%.<br />Cannot be used while raged.",
+      "prereqs": [
+        "[[Dexterity]] 13",
+        "[[Base Attack Bonus]] +1"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Resilience.png",
+      "feat": "Resilience",
+      "description": "You gain a +4 to all [[saving throw]]s. [[Spells]] have three times their normal [[cooldown]] when this mode is active.",
+      "prereqs": [
+        "[[Constitution]] 13",
+        "[[Base Attack Bonus]] +1"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Diehard.png",
+      "feat": "Diehard",
+      "description": "You automatically stabilize when incapacitated.",
+      "prereqs": "None"
+    },
+    {
+      "icon": "Icon_Feat_Dodge.png",
+      "feat": "Dodge",
+      "description": "This [[feat]] grants 3% to the characters [[dodge bonus]].",
+      "prereqs": "[[Dexterity]] 13"
+    },
+    {
+      "icon": "Icon_Feat_Mobility.png",
+      "feat": "Mobility",
+      "description": "Increases the maximum dexterity bonus permitted by armor and tower shields by 2, and adds a +4 bonus to [[Armor Class]] while the character is [[tumbling]]. You will also gain a 2% [[dodge bonus]].",
+      "prereqs": "[[Dodge]]"
+    },
+    {
+      "icon": "Icon_Feat_Spring_Attack.png",
+      "feat": "Spring Attack",
+      "description": "Character suffers no penalty to his attack roll when meleeing and moving. You will also gain a 2% [[dodge bonus]].",
+      "prereqs": [
+        "[[Dodge]], [[Mobility]]",
+        "[[Dexterity]] 13 , [[Base Attack Bonus]] 4"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Improved_Critical.png",
+      "feat": "Improved Critical",
+      "description": "Adds 1, 2, or 3 to critical [[threat range]] based on the weapon type's unmodified threat range.This [[feat]] is taken for a certain [[weapon type]] '''([[:Category:Bludgeoning weapons|Bludgeoning]], [[:Category:Piercing weapons|Piercing]], [[:Category:Ranged weapons|Ranged]], [[:Category:Slashing weapons|Slashing]] or [[:Category:Thrown weapons|Thrown]])''', and can be taken multiple times, though each time must be for a different type.",
+      "prereqs": "[[Base Attack Bonus]] +8"
+    },
+    {
+      "icon": "Icon_Feat_Power_Critical.png",
+      "feat": "Power Critical",
+      "description": "Provides a +2 bonus to confirm [[critical hit]]s and +2 bonus to critical hit damage (before multipliers are applied).",
+      "prereqs": [
+        "[[Weapon Focus]]: Any",
+        "[[Base Attack Bonus]] 4"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Toughness.png",
+      "feat": "Toughness",
+      "description": "This [[feat]] Increases your hit points by +3 at first level, and adds +1 additional hit point for each additional level. This [[feat]] can be taken multiple times, so that the effects stack.",
+      "prereqs": "None"
+    },
+    {
+      "icon": "Icon_Feat_Weapon_Finesse.png",
+      "feat": "Weapon Finesse",
+      "description": "This [[feat]] allows the character to apply their [[dexterity]] [[modifier]] to hit instead of the [[strength]] [[modifier]] when making melee attacks with [[light weapon]]s and [[rapier]]s. The [[strength]] [[modifier]] is still used as a bonus to the damage roll.",
+      "prereqs": [
+        "[[Dexterity]] 13",
+        "[[Base Attack Bonus]] +1"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Knight's_Training.png",
+      "feat": "Knight's Training",
+      "description": "You have undergone rigorous military training with the traditional weapons of war. These weapons receive one of the following [[morale bonus]]es in your hands. \n[[Long Sword]]'s critical multiplier is increased by 1.\n[[Battle Axe]]'s critical threat range is increased by 1. Increased by 2 if you have [[Improved Critical]]: Slashing.\n[[Heavy Mace]]'s, [[Morningstar]]s & [[War Hammer]]s critical threat range is increased by 1.",
+      "prereqs": "[[Base Attack Bonus]] + 4"
+    },
+    {
+      "icon": "Icon_Feat_Shield_Mastery.png",
+      "feat": "Shield Mastery",
+      "description": "You are skilled with the use of a shield, and your [[physical resistance rating|Physical Resistance Rating]] is increased by 3 when using a buckler or small shield, 5 when using a large shield, or 10 when using a tower shield. You gain 3% chance to [[Doublestrike]] while using a shield. Add +3 [[Melee Power]].",
+      "prereqs": "[[Shield Proficiency: General]]"
+    },
+    {
+      "icon": "Icon_Feat_Improved_Shield_Mastery.png",
+      "feat": "Improved Shield Mastery",
+      "description": "You are exceptionally skilled with the use of a shield, and your [[Physical Resistance Rating]] is increased by 5 when using a buckler or small shield, 10 when using a large shield, or 15 when using a tower shield. Your [[Doublestrike]] chance while using a shield is increased by 5% to a total of 8%. Add +3 [[Melee Power]] (for a total of +6).",
+      "prereqs": [
+        "[[Shield Mastery]]",
+        "[[Base Attack Bonus]] +8"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Improved_Shield_Bash.png",
+      "feat": "Improved Shield Bash",
+      "description": "Enables the character to retain the [[shield bonus]] to its [[Armor Class]] when using [[Shield Bash]], and grants a 20% chance to make a secondary [[Shield Bash]] while attacking with a melee weapon.",
+      "prereqs": "[[Shield Proficiency: General]]"
+    },
+    {
+      "icon": "Icon_Feat_Improved_Shield_Bash.png <!--same icon-->",
+      "feat": "Shield Deflection",
+      "description": "When actively [[blocking]] with any type of [[Shield]] you are proficient with, you gain a [[Competence bonus]] based on the type of shield to completely ignore Acid, Cold, Electric and Fire damage.",
+      "prereqs": [
+        "[[Shield Proficiency: General]] or  <br /> [[Tower Shield Proficiency]]",
+        "+8 Base Attack Bonus"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Single_Weapon_Fighting.png",
+      "feat": "Single Weapon Fighting",
+      "description": "While Single Weapon Fighting, you gain +10% Combat Style bonus to attack speed and 2 [[Melee Power]]. \nSingle Weapon Fighting: Requires fighting with a single one-handed weapon, and wielding only an orb, runearm, or nothing in your off hand.\n{{Unverified|Note: Actually increases base number of attacks per second from 1.4 to 1.6.}}",
+      "prereqs": "2 ranks of [[Balance]]"
+    },
+    {
+      "icon": "Icon_Feat_Single_Weapon_Fighting.png",
+      "feat": "Improved Single Weapon Fighting",
+      "description": "Your Single-Weapon Fighting bonus is increased to a +20% Combat Style bonus to attack speed and an additional 2 [[Melee Power]] (for a total of 4). You now apply 25% more of your appropriate ability score to your damage instead of just your ability score (for instance, you add 1.25 times your Strength as damage). \n {{Unverified|Note: Further increases base number of attacks per second from 1.6 to 1.8.}}",
+      "prereqs": [
+        "[[Single Weapon Fighting]]",
+        "4 ranks of [[Balance]]",
+        "[[Base Attack Bonus]] +6"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Single_Weapon_Fighting.png",
+      "feat": "Greater Single Weapon Fighting",
+      "description": "Your Single-Weapon Fighting bonus is increased to a +30% Combat Style bonus to attack speed and 2 additional [[Melee Power]] (for a total of 6) and 50% more of your appropriate ability score to your damage (similar to Two-Handed Fighting). \n {{Unverified|Note: Further increases base number of attacks per second from 1.8 to 2.0.}}",
+      "prereqs": [
+        "[[Improved Single Weapon Fighting]]",
+        " 7 ranks of [[Balance]]",
+        "[[Base Attack Bonus]] +11"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Two_Handed_Fighting.png",
+      "feat": "Two Handed Fighting",
+      "description": "Increases the damage of glancing blow attacks when wielding a two-handed weapon by 10% (from a base of 20% normal weapon damage). Also grants a 3% chance for weapon effects to trigger on glancing blows and a +2 Combat Style bonus to [[Melee Power]].",
+      "prereqs": "[[Strength]] 15"
+    },
+    {
+      "icon": "Icon_Feat_Improved_Two_Handed_Fighting.png",
+      "feat": "Improved Two Handed Fighting",
+      "description": "Increases the damage of glancing blow attacks when wielding a two-handed weapon by an additional 10%. Also increases the chance for weapon effects to trigger on glancing blows by an additional 3% (6%) and an additional +2 Combat Style bonus to [[Melee Power]] (total of +4).",
+      "prereqs": [
+        "[[Two Handed Fighting]]",
+        "[[Strength]] 17",
+        "[[Base Attack Bonus]] +6"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Greater_Two_Handed_Fighting.png",
+      "feat": "Greater Two Handed Fighting",
+      "description": "Increases the damage of glancing blow attacks when wielding a two-handed weapon by an additional 10% for a total of 50%. Also increases the chance for weapon effects to trigger on glancing blows by an additional 3% (9%) and an additional +2 to [[Melee Power]] (total of +6).",
+      "prereqs": [
+        "[[Improved Two Handed Fighting]]",
+        "[[Strength]] 17",
+        "[[Base Attack Bonus]] +11"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Two_Weapon_Fighting.png",
+      "feat": "Two Weapon Fighting",
+      "description": "Reduces the to-hit penalty when using two weapons at the same time. The penalty for your primary hand lessens by 2 and the one for your [[off-hand]] lessens by 6, resulting in -4/-4 (instead of -6/-10 without this feat). If the off-hand weapon is [[light weapon|light]], both penalties decrease by another 2 points, down to -2/-2 (instead of -4/-8 without this feat). Two Weapon Fighting also increases the chance to proc an off-hand attack by 20% (applies to unarmed [[Monk]]), bringing the total chance to 40%.",
+      "prereqs": "[[Dexterity]] 15"
+    },
+    {
+      "icon": "Icon_Feat_Oversized_Two_Weapon_Fighting.png",
+      "feat": "Oversized Two Weapon Fighting",
+      "description": "When wielding a one handed weapon in your off-hand, you take penalties for fighting with two weapons as if you were wielding a [[light weapon]] on your offhand.",
+      "prereqs": [
+        "[[Two Weapon Fighting]]",
+        "[[Strength]] 12"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Two_Weapon_Defense.png",
+      "feat": "Two Weapon Defense",
+      "description": "Grants you a +1 bonus to your AC and 5 [[Physical Resistance Rating|PRR]] when you wield two weapons. ( This bonus does not apply when fighting unarmed/with handwraps.)  In DDO, this is not implemented as a [[shield bonus]] and stacks with the [[Shield (spell)|Shield spell]].",
+      "prereqs": "[[Two Weapon Fighting]]"
+    },
+    {
+      "icon": "Icon_Feat_Two_Weapon_Blocking.png",
+      "feat": "Two Weapon Blocking",
+      "description": "Increases amount of damage you can block when defending with two weapons. ( This bonus does not apply when fighting unarmed/with handwraps.)",
+      "prereqs": "[[Two Weapon Fighting]]"
+    },
+    {
+      "icon": "Icon_Feat_Improved_Two_Weapon_Fighting.png",
+      "feat": "Improved Two Weapon Fighting",
+      "description": "This [[feat]] increases the chance to proc an off-hand attack by 20% (includes unarmed [[Monk]]), bringing the total chance to 60%.",
+      "prereqs": [
+        "[[Two Weapon Fighting]]",
+        "[[Dexterity]] 17, [[Base Attack Bonus]] +6"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Greater_Two_Weapon_Fighting.png",
+      "feat": "Greater Two Weapon Fighting",
+      "description": "Increases the chance to proc an off-hand attack by 20%, bringing the total chance to 80%.",
+      "prereqs": [
+        "[[Improved Two Weapon Fighting]]",
+        "[[Dexterity]] 17, [[Base Attack Bonus]] +11"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Weapon_Focus.png",
+      "feat": "Weapon Focus",
+      "description": "Provides a +1 bonus to [[attack roll]]s with the chosen  [[weapon type]] '''[[:Category:Bludgeoning weapons|Bludgeoning]] (includes animal form), [[:Category:Piercing weapons|Piercing]], [[:Category:Ranged weapons|Ranged]], [[:Category:Slashing weapons|Slashing]] or ([[:Category:Thrown weapons|Thrown]])''' and +2 stacking [[Melee Power]] or [[Ranged Power]]. It can be taken multiple times, once for each of the different types.",
+      "prereqs": "[[Base Attack Bonus]] +1"
+    },
+    {
+      "icon": "Icon_Feat_Greater_Weapon_Focus.png",
+      "feat": "Greater Weapon Focus",
+      "description": "Provides an additional +1 bonus to [[attack roll]]s with the chosen [[weapon type]] and additional +2 stacking [[Melee Power]] or [[Ranged Power]]. This [[feat]] stacks with [[Weapon Focus]].",
+      "prereqs": [
+        "Level 8: [[Fighter]]",
+        "[[Weapon Focus]] Specific Weapon Type"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Superior_Weapon_Focus.png",
+      "feat": "Superior Weapon Focus",
+      "description": "Provides an additional +1 bonus to [[attack roll]]s with the chosen [[weapon type]] and additional +2 stacking [[Melee Power]] or  [[Ranged Power]].",
+      "prereqs": [
+        "Level 16: [[Fighter]], [[Greater Weapon Focus]]",
+        "[[Greater Weapon Specialization]] in the same Specific Weapon Type"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Weapon_Specialization.png",
+      "feat": "Weapon Specialization",
+      "description": "Provides a +2 bonus to [[damage roll]]s with the chosen [[weapon type]] and +2 stacking [[Melee Power]] or [[Ranged Power]]. This [[feat]] can be taken multiple times, once for each weapon type.",
+      "prereqs": [
+        "Level 4: [[Fighter]]",
+        "Weapon Focus in same [[weapon type]]"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Greater_Weapon_Specialization.png",
+      "feat": "Greater Weapon Specialization",
+      "description": "Provides an additional +2 bonus to [[damage roll]]s with the chosen [[weapon type]] and +2 stacking [[Melee Power]] or [[Ranged Power]]. This bonus stacks with the [[Weapon Specialization]] feat.",
+      "prereqs": [
+        "Level 12: [[Fighter]], [[Weapon Focus]]",
+        "[[Weapon Specialization]] in same Weapon Type"
+      ]
+    },
+    {
+      "icon": "Icon Tactical Training.png",
+      "feat": "Tactical Training",
+      "description": "+2 bonus to Tactics DC's.",
+      "prereqs": "Level 4: [[Fighter]]"
+    },
+    {
+      "icon": "Icon Tactical Training.png",
+      "feat": "Tactical Combatant",
+      "description": "+4 bonus to Tactics DC's.",
+      "prereqs": "Level 8: [[Fighter]]"
+    },
+    {
+      "icon": "Icon Tactical Training.png",
+      "feat": "Tactical Mastery",
+      "description": "+6 bonus to Tactics DC's.",
+      "prereqs": "Level 12: [[Fighter]]"
+    },
+    {
+      "icon": "Icon Tactical Training.png",
+      "feat": "Tactical Supremacy",
+      "description": "+8 bonus to Tactics DC's.",
+      "prereqs": "Level 16: [[Fighter]]"
+    },
+    {
+      "icon": "Icon Heavy Armor Training.png",
+      "feat": "Heavy Armor Training",
+      "description": "While in heavy armor, get +3 [[PRR]] and [[MRR]].",
+      "prereqs": "Level 2: [[Fighter]]"
+    },
+    {
+      "icon": "Icon Heavy Armor Training.png",
+      "feat": "Heavy Armor Combatant",
+      "description": "While in heavy armor, get +6 [[PRR]] and [[MRR]].",
+      "prereqs": "Level 6: [[Fighter]]"
+    },
+    {
+      "icon": "Icon Heavy Armor Training.png",
+      "feat": "Heavy Armor Master",
+      "description": "While in heavy armor, get +9 [[PRR]] and [[MRR]].",
+      "prereqs": "Level 10: [[Fighter]]"
+    },
+    {
+      "icon": "Icon Heavy Armor Training.png",
+      "feat": "Heavy Armor Champion",
+      "description": "While in heavy armor, get +12 [[PRR]] and [[MRR]].",
+      "prereqs": "Level 14: [[Fighter]]"
+    },
+    {
+      "icon": "Feat bow strength.png",
+      "feat": "Bow Strength",
+      "description": "[[Strength]] bonus to damage is applied to [[Longbow]] and [[Shortbow]].",
+      "prereqs": [
+        "[[Point Blank Shot]], [[Weapon Focus: Ranged| Weapon Focus: Ranged Weapons]]",
+        "[[Base Attack Bonus]] +4",
+        "One of: [[Weapon Specialization| Weapon Specialization: Ranged Weapons]], [[Power Attack]], [[Combat Expertise]], [[Zen Archery]]"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Brutal_Throw.png",
+      "feat": "Brutal Throw",
+      "description": "You can use your [[Strength]] bonus instead of [[Dexterity]] bonus to determine bonus to attack with [[Thrown weapons]] if it is higher.",
+      "prereqs": [
+        "[[Strength]] 13",
+        "[[Base Attack Bonus]] +1"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Point_Blank_Shot.png",
+      "feat": "Point Blank Shot",
+      "description": "Grants a +1 bonus to hit within 15 meters, and your ranged weapons deal +1[W]. (A weapon that deals 1d6 damage per hit will deal 2d6 damage per hit instead, while a weapon that deals 2d8 damage per hit will deal 4d8 damage per hit instead. This affects the base dice of the associated weapon any time they are rolled, including critical hits.)",
+      "prereqs": "None"
+    },
+    {
+      "icon": "Icon_Feat_Precise_Shot.png",
+      "feat": "Precise Shot",
+      "description": "Your targeted ranged attacks will now pass through friends and foes alike, to strike your [[target]]. (No damage will be done other than to your [[target]].) This feat also grants you the Offensive Ranged Stance 'Archer's Focus', which lets you deal progressively more damage while standing still.",
+      "prereqs": "[[Point Blank Shot]]"
+    },
+    {
+      "icon": "Icon_Feat_Quick_Draw.png",
+      "feat": "Quick Draw",
+      "description": "Allows the character to switch weapons and armor faster than they would normally be able to. It also increases the rate of fire of [[thrown weapons]], but not of other [[ranged weapons]].",
+      "prereqs": "[[Base Attack Bonus]] +1"
+    },
+    {
+      "icon": "Icon_Feat_Rapid_Reload.png",
+      "feat": "Rapid Reload",
+      "description": "Allows [[Weapons by weapon focus#Ranged Weapons|Crossbow]]s to be reloaded about 20% faster.",
+      "prereqs": "[[Simple Weapon Proficiency|Proficiency: Light Crossbows]]"
+    },
+    {
+      "icon": "Icon_Feat_Rapid_Shot.png",
+      "feat": "Rapid Shot",
+      "description": "You can make ranged attacks about 20% faster and reload faster when using a ranged weapon.",
+      "prereqs": [
+        "[[Point Blank Shot]]",
+        "[[Dexterity]] 13,"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Shot_On_The_Run.png",
+      "feat": "Shot on the Run",
+      "description": "Negates the penalty to your attack roll for firing [[:Category:Ranged weapons|ranged weapon]] while moving. Also gives +3 ranged power.",
+      "prereqs": [
+        "[[Point Blank Shot]], [[Mobility]]",
+        "[[Dexterity]] 13, [[Base Attack Bonus]] 4+"
+      ]
+    },
+    {
+      "icon": "Shuriken Expertise.PNG",
+      "feat": "Shuriken Expertise",
+      "description": "You are skilled with the use of the [[shuriken]], and have a chance to throw an additional one per throw. (Percent chance to throw an additional shuriken is equal to your [[Dexterity]].) This is also a racial feat given to all [[Drow|Drow Elf]] at level 1, regardless of class.",
+      "prereqs": [
+        "[[Dexterity]] 13",
+        "One of: [[Exotic Weapon Proficiency|Proficiency: Shuriken]] or <br />[[Half-Elf Dilettante: Monk]]"
+      ]
+    },
+    {
+      "icon": "ICON Zen Archery.PNG",
+      "feat": "Zen Archery",
+      "description": "You can use your [[Wisdom]] bonus instead of [[Dexterity]] bonus to determine bonus to attack with ranged missile weapons if it is higher (does not apply to [[thrown weapons]]). You treat [[longbow]]s and [[shortbow]]s as if they were [[Ki]] weapons.",
+      "prereqs": [
+        "[[Wisdom]] 13",
+        "[[Base Attack Bonus]] +1"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Extra_Turning.png",
+      "feat": "Extra Turning",
+      "description": "Allows the character to [[turn undead]] an additional 4 times per [[rest|rest period]]. This [[feat]] can be taken only once.",
+      "prereqs": "[[Turn Undead]]"
+    },
+    {
+      "icon": "Icon_Feat_Improved_Turning.png",
+      "feat": "Improved Turning",
+      "description": "This [[feat]] gives [[cleric]]s and [[paladin]]s a better chance at turning the [[undead]].",
+      "prereqs": "[[Turn Undead]]"
+    },
+    {
+      "icon": "Icon_Feat_Augment_Summoning.png",
+      "feat": "Augment Summoning",
+      "description": "Your summoned creatures, charmed minions, and hirelings have +4 to all ability scores, increased health, and increased fortification.",
+      "prereqs": "None"
+    },
+    {
+      "icon": "Icon_Feat_Mental_Toughness.png",
+      "feat": "Mental Toughness",
+      "description": "This [[feat]] Increases the character maximum [[spell points]] by 10 at level 1, and 5 [[spell points]] for each additional level. Also increases your spell critical chance by 1%.",
+      "prereqs": [
+        "Level 1: [[Artificer]], [[Bard]], [[Cleric]], [[Druid]], [[Favored Soul]], [[Sorcerer]], [[Wizard]]",
+        "Level 4: [[Paladin]], [[Ranger]]"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Improved_Mental_Toughness.png",
+      "feat": "Improved Mental Toughness",
+      "description": "This [[feat]] increases the character maximum [[spell points]] by 10 at level 1, and 5 [[spell points]] for each additional level. Also increases your spell critical chance by 1%.<br /> Stacks with [[Mental Toughness]].",
+      "prereqs": [
+        "[[Mental Toughness]]",
+        "Ability to cast 3rd level spells",
+        "Level 5: [[Cleric]], [[Druid]], [[Wizard]]",
+        "Level 6: [[Favored Soul]], [[Sorcerer]]",
+        "Level 7: [[Artificer]], [[Bard]]; Level 10: [[Paladin]], [[Ranger]]"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Mobile_Spellcasting.png",
+      "feat": "Mobile Spellcasting",
+      "description": "A character, when casting, will normally move at half speed.  This feat allows a character to move at normal speed while casting.",
+      "prereqs": [
+        "[[Combat Casting]], [[Dexterity]] 13,",
+        "Ability to cast 2nd level spells",
+        "Level 3: [[Artificer]], [[Cleric]], [[Druid]], [[Wizard]]",
+        "Level 4: [[Bard]], [[Favored Soul]], [[Sorcerer]]",
+        "Level 7: [[Paladin]], [[Ranger]]"
+      ]
+    },
+    {
+      "icon": "Icon_Enhancement_Instinctive_Fighting.png",
+      "feat": "Natural Fighting",
+      "description": "This feat grants +4 [[Melee Power]], [[Physical Resistance]] and [[Doublestrike]] chance while in a druid [[Wild_Shape#Animal_forms|animal form]]. In bear form, your glancing blow damage is increased by 10% of base weapon damage. This feat can be taken up to three times, and gives no benefit to druids in elemental forms. ",
+      "prereqs": "Level 3: [[Druid]]"
+    },
+    {
+      "icon": "Icon_Feat_Spell_Focus.png",
+      "feat": "Spell Focus",
+      "description": "This feat makes it harder for enemies to resist the caster's [[spell]]s of a particular school by adding +1 to the [[difficulty class]] of the [[spell]].",
+      "prereqs": [
+        "Level 1: [[Artificer]], [[Bard]], [[Cleric]], [[Druid]], [[Favored Soul]], [[Sorcerer]], [[Wizard]]",
+        "Level 4: [[Paladin]], [[Ranger]]"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Greater_Spell_Focus.png",
+      "feat": "Greater Spell Focus",
+      "description": "This feat makes it harder for enemies to resist the caster's spells of a particular school by adding +1 to the difficulty class of the spell. This stacks with [[Spell Focus]].",
+      "prereqs": [
+        "*[[Spell Focus]] for the same school",
+        "Level 1: [[Artificer]], [[Bard]], [[Cleric]], [[Druid]], [[Favored Soul]], [[Sorcerer]], [[Wizard]]",
+        "Level 4: [[Paladin]], [[Ranger]]"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Spell_Penetration.png",
+      "feat": "Spell Penetration (feat)",
+      "description": "Adds +2 to the caster level check for defeating a foe's [[spell resistance]].",
+      "prereqs": [
+        "Level 1: [[Artificer]], [[Bard]], [[Cleric]], [[Druid]], [[Favored Soul]], [[Sorcerer]], [[Wizard]]",
+        "Level 4: [[Paladin]], [[Ranger]]"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Greater_Spell_Penetration.png",
+      "feat": "Greater Spell Penetration",
+      "description": "Adds +2 to the caster level check for defeating a foe's [[spell resistance]]. (This stacks with [[Spell Penetration (feat)|Spell Penetration]] for a grand total of +4.)",
+      "prereqs": [
+        "[[Spell Penetration (feat)|Spell Penetration]]",
+        "Level 1: [[Artificer]], [[Bard]], [[Cleric]], [[Druid]], [[Favored Soul]], [[Sorcerer]], [[Wizard]]",
+        "Level 4: [[Paladin]], [[Ranger]]"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Light_Armor_Proficiency.png",
+      "feat": "Light Armor Proficiency",
+      "description": "You are proficient with light armor, and do not suffer armor penalties to your attack rolls when wearing light armor.<br /> You also gain 2 + 1/2 of your [[base attack bonus]] in physical resistance when wearing [[:Category:Light armor|light armor]].",
+      "prereqs": "None"
+    },
+    {
+      "icon": "Icon_Feat_Medium_Armor_Proficiency.png",
+      "feat": "Medium Armor Proficiency",
+      "description": "You are proficient with medium armor, and do not suffer armor penalties to your attack rolls when wearing  medium armor.<br />  You also gain 4 + 2/3rds of your [[base attack bonus]] in physical resistance when wearing [[:Category:Medium armor|medium armor]].",
+      "prereqs": "[[Light Armor Proficiency]]"
+    },
+    {
+      "icon": "Icon_Feat_Heavy_Armor_Proficiency.png",
+      "feat": "Heavy Armor Proficiency",
+      "description": "You are proficient with [[:Category:Heavy armor|heavy armor]], and do not suffer armor penalties to your attack rolls when wearing  heavy armor.<br />  You also gain 6 + your [[base attack bonus]] in physical resistance when wearing [[:Category:Heavy armor|heavy armor]].",
+      "prereqs": "[[Medium Armor Proficiency]]"
+    },
+    {
+      "icon": "Icon_Feat_General_Shield_Proficiency.png",
+      "feat": "Shield Proficiency (General)",
+      "description": "This feat negates the penalties from using [[buckler]]s, and [[Light Shield|small]] and [[large shield|Large Shield]]s.",
+      "prereqs": "None"
+    },
+    {
+      "icon": "Icon_Feat_Tower_Shield_Proficiency.png",
+      "feat": "Tower Shield Proficiency",
+      "description": "This feat negates the extra penalties from using a tower shield while untrained. The -2 attack penalty still applies.",
+      "prereqs": "[[Shield Proficiency (General)]]"
+    },
+    {
+      "icon": "Icon_Feat_Simple_Weapon_Proficiency.png",
+      "feat": "Simple Weapon Proficiency",
+      "description": "This feat negates the penalty from using any of the [[:Category:Simple weapons|simple weapons]] while untrained.",
+      "prereqs": "None"
+    },
+    {
+      "icon": "Icon_Feat_Martial_Weapon_Proficiency.png",
+      "feat": "Martial Weapon Proficiency",
+      "description": "This feat negates the penalty from using any of the [[:Category:Martial weapons|martial weapons]] while untrained. This feat must be taken for separate martial weapons.",
+      "prereqs": "None"
+    },
+    {
+      "icon": "Icon_Feat_Exotic_Weapon_Proficiency.png",
+      "feat": "Exotic Weapon Proficiency",
+      "description": "This feat negates the -4 penalty from using any of the [[:Category:Exotic weapons|exotic weapons]] while untrained. Bastard Sword and Dwarven Waraxe deal grazing hits as if they were a two handed weapon if they are the only weapon wielded by a proficient user.<br /> This feat must be taken for separate exotic weapons.",
+      "prereqs": [
+        "[[Strength]] 13 for [[Bastard Sword]] and [[Dwarven Waraxe]]",
+        "[[Base Attack Bonus]] +1,"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Acrobatic.png",
+      "feat": "Acrobatic",
+      "description": "Provides a +2 bonus to the character's [[Jump (skill)|Jump]] and [[Tumble (skill)|Tumble]] skills.",
+      "prereqs": "None"
+    },
+    {
+      "icon": "Icon_Feat_Alertness.png",
+      "feat": "Alertness",
+      "description": "Provides a +2 bonus to the character's [[Listen]] and [[Spot]] skills.",
+      "prereqs": "None"
+    },
+    {
+      "icon": "Icon_Feat_Athletic.png",
+      "feat": "Athletic",
+      "description": "Provides a +2 bonus to the character's [[Balance]] and [[Swim]]  skills.",
+      "prereqs": "None"
+    },
+    {
+      "icon": "Icon_Feat_Combat_Casting.png",
+      "feat": "Combat Casting",
+      "description": "Provides a +4 bonus to the character's [[Concentration]] while casting spells in combat.",
+      "prereqs": [
+        "Level 1: [[Artificer]], [[Bard]], [[Cleric]], [[Druid]], [[Favored Soul]], [[Sorcerer]], [[Wizard]]",
+        "Level 4:[[Paladin]], [[Ranger]]"
+      ]
+    },
+    {
+      "icon": "Icon_Feat_Negotiator.png",
+      "feat": "Negotiator",
+      "description": "Provides a +2 bonus to the character's [[Diplomacy]] and [[Haggle]] skills.",
+      "prereqs": "None"
+    },
+    {
+      "icon": "Icon_Feat_Nimble_Fingers.png",
+      "feat": "Nimble Fingers",
+      "description": "Provides a +2 bonus to the character's [[Disable Device]] and [[Open Lock]] skills.",
+      "prereqs": "Level 1: [[Rogue]]"
+    },
+    {
+      "icon": "Icon_Feat_Self_Sufficient.png",
+      "feat": "Self Sufficient",
+      "description": "Provides a +2 bonus to the character's [[Heal (skill)|Heal]] and [[Repair (skill)|Repair]] skills.",
+      "prereqs": "None"
+    },
+    {
+      "icon": "Icon_Feat_Skill_Focus.png",
+      "feat": "Skill Focus",
+      "description": "Provides a +3 bonus to the chosen skill check roll. This feat can only be taken once per skill. Available Skills: [[Balance]], [[Bluff]], [[Concentration]], [[Diplomacy]], [[Disable Device]], [[Haggle]], [[Heal (skill)|Heal]], [[Hide]], [[Intimidate]], [[Jump (skill)|Jump]], [[Listen]], [[Move Silently]], [[Open Lock]], [[Perform]], [[Repair (skill)|Repair]], [[Search]], [[Spellcraft]], [[Spot]], [[Swim]], [[Tumble (skill)|Tumble]], [[Use Magic Device]].",
+      "prereqs": "None"
+    },
+    {
+      "icon": "Icon_Feat_Stealthy.png",
+      "feat": "Stealthy",
+      "description": "Provides a +2 bonus to the character's [[Hide]] and [[Move Silently]] skills.",
+      "prereqs": "None"
+    },
+    {
+      "icon": "Icon_Feat_Bullheaded.png",
+      "feat": "Bullheaded",
+      "description": "Provides a +1 on [[Will save]]s and +2 to the [[Skill]] [[Intimidate]].",
+      "prereqs": "None"
+    },
+    {
+      "icon": "Icon_Feat_Discipline.png‎",
+      "feat": "Discipline",
+      "description": "Provides a +1 on [[Will save]]s and +2 to [[Concentration]] [[Skill check]]s.",
+      "prereqs": "None"
+    },
+    {
+      "icon": "Icon_Feat_Great_Fortitude.png",
+      "feat": "Great Fortitude",
+      "description": "Grants a +2 bonus to [[Fortitude save]]s.",
+      "prereqs": "None"
+    },
+    {
+      "icon": "Icon_Feat_Iron_Will.png",
+      "feat": "Iron Will",
+      "description": "Grants a +2 bonus to [[Will save]]s.",
+      "prereqs": "None"
+    },
+    {
+      "icon": "Icon_Feat_Lightning_Reflexes.png",
+      "feat": "Lightning Reflexes",
+      "description": "Grants a +2 bonus to [[Reflex save]]s.",
+      "prereqs": "None"
+    },
+    {
+      "icon": "Icon_Feat_Luck_Of_Heroes.png",
+      "feat": "Luck of Heroes",
+      "description": "Grants a +1 bonus to all [[saving throw]]s.",
+      "prereqs": "None"
+    },
+    {
+      "icon": "Icon_Feat_Resist_Poison.png",
+      "feat": "Resist Poison",
+      "description": "Grants a +4 bonus to all [[saving throw]]s versus [[Poison]].",
+      "prereqs": "None"
+    },
+    {
+      "icon": "Icon_Feat_Snake_Blood.png",
+      "feat": "Snake Blood",
+      "description": "Grants a +1 bonus on [[Reflex save]]s and +2 bonus to [[saving throw]]s versus [[Poison]].",
+      "prereqs": " None"
+    },
+    {
+      "icon": "Icon_Feat_Force_Of_Personality.png",
+      "feat": "Force of Personality",
+      "description": "This [[Feat]] allows [[Player character|Player Character]] to use [[Charisma]] [[modifier]] for [[Will save]]s, instead of [[Wisdom]].",
+      "prereqs": "[[Charisma]] 13"
+    },
+    {
+      "icon": "Icon_Feat_Insightful_Reflexes.png",
+      "feat": "Insightful Reflexes",
+      "description": "This [[Feat]] allows [[Player character|Player Character]] to use [[Intelligence]] [[modifier]] for [[Reflex save]]s, instead of [[Dexterity]].",
+      "prereqs": "[[Intelligence]] 13"
+    },
+    {
+      "icon": "Icon_Feat_Coin_Lord_Finishing_School_Training.png",
+      "feat": "Coin Lord Finishing School Training",
+      "description": "This [[Feat]] grants +2 bonus to the [[Skill]]s [[Diplomacy]] and [[Intimidate]].",
+      "prereqs": "400 of [[The Coin Lords]] favor"
+    },
+    {
+      "icon": "Icon_Feat_Draconic_Vitality.png‎",
+      "feat": "Draconic Vitality",
+      "description": "This [[Feat]] increases the [[Player character|Player Character]] maximum [[Hit point|Hit Points]] by 10.",
+      "prereqs": "150 of [[Agents of Argonnessen]] favor"
+    },
+    {
+      "icon": "Icon_Feat_Respec_Token.png",
+      "feat": "Feat Respec Token",
+      "description": "Exchange 1 [[Feat]] from your [[Player character|Player Character]] for another [[Feat]] at no cost.",
+      "prereqs": "None"
+    }
+  ]
